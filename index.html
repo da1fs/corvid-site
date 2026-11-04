@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zapdude - WhatsApp + Messenger, all your chats in one window</title>
-<meta name="description" content="Zapdude: hub de chats de escritorio para WhatsApp Web y Messenger. Multi-cuenta y multi-servicio. Windows y macOS. Código abierto, AGPL-3.0.">
+<title>Corvid - WhatsApp + Messenger, all your chats in one window</title>
+<meta name="description" content="Corvid: hub de chats de escritorio para WhatsApp Web y Messenger. Multi-cuenta y multi-servicio. Windows y macOS (GNU/Linux en camino). Software libre, AGPL-3.0.">
 <meta name="theme-color" content="#08130f">
 <link rel="icon" type="image/png" href="assets/icon-32.png">
 <style>
@@ -200,12 +200,12 @@
 <body>
 <nav>
   <div class="inner">
-    <img src="assets/icon-256.png" alt="Zapdude">
-    <div class="brand">Zapdude</div>
+    <img src="assets/icon-256.png" alt="Corvid">
+    <div class="brand">Corvid</div>
     <div class="links">
       <a href="#features" data-i18n="nav_features">Funciones</a>
       <a href="#download" data-i18n="nav_download">Descargas</a>
-      <a href="https://github.com/ldpf96/zapdude" data-i18n="nav_github">GitHub</a>
+      <a href="https://github.com/da1fs/corvid" data-i18n="nav_github">GitHub</a>
     </div>
     <div class="spacer"></div>
     <div class="lang">
@@ -219,15 +219,15 @@
 
 <main>
   <section class="hero wrap">
-    <div class="pill"><i class="dot"></i><span data-i18n="pill">Nuevo en 1.4.2: el panel derecho ya no queda en blanco al abrir un chat nunca más: el escondedor de promos es 100% reglas reversibles.</span></div>
+    <div class="pill"><i class="dot"></i><span data-i18n="pill">Nueva identidad: el proyecto se llama Corvid. Lo que sigue: el escudo de red propio, el puerto GNU/Linux y el motor libre empaquetado.</span></div>
     <h1><span data-i18n="h1a">Tus chats de WhatsApp y Messenger,</span><br><span class="grad" data-i18n="h1b">una sola ventana.</span></h1>
-    <p class="sub" data-i18n="sub">Cambiate de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y una API local para que tus agentes trabajen por ti. Libre, de código abierto, sin suscripciones.</p>
+    <p class="sub" data-i18n="sub">Cambiate de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y una API local para que tus agentes trabajen por ti. Y como fondo: un escudo que bloquea rastreadores, anuncios y telemetría, con el panel para verlo. Software libre, sin suscripciones.</p>
     <div class="cta">
       <a class="btn" id="dl-win">
         <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zM11.5 4.2 21 3v8.5h-9.5V4.2zm0 6.3H21V19l-9.5-1.3v-7.2z"/></svg>
         <span data-i18n="cta_win">Descargar para Windows</span><small id="win-ver"></small>
       </a>
-      <a class="btn ghost" href="https://github.com/ldpf96/zapdude">
+      <a class="btn ghost" href="https://github.com/da1fs/corvid">
         <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.6-3.9-1.6-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
         <span data-i18n="cta_gh">Código en GitHub</span>
       </a>
@@ -237,7 +237,7 @@
 
   <section class="showcase reveal">
     <div class="mock" aria-hidden="true">
-      <div class="bar"><i></i><i></i><i></i><span>Zapdude</span></div>
+      <div class="bar"><i></i><i></i><i></i><span>Corvid</span></div>
       <div class="win">
         <div class="rail">
           <div class="logo">
@@ -290,7 +290,7 @@
         <i class="glow"></i>
         <svg viewBox="0 0 24 24"><rect x="3" y="4" width="4" height="16" rx="2"/><rect x="10" y="4" width="11" height="16" rx="2"/></svg>
         <h4 data-i18n="f1t">Multi-cuenta y multi-servicio</h4>
-        <p data-i18n="f1d">Un webview por cuenta con perfil aislado: cada sesión vive sola, con su propio espacio en disco. Cambiar de cuenta es un movimiento de posición, instantáneo, sin recargar ni parpadear. Y ahora cada cuenta elige SU servicio: WhatsApp Web o Messenger (fase de recepción; escribir, próximamente).</p>
+        <p data-i18n="f1d">Un webview por cuenta con perfil aislado: cada sesión vive sola, con su propio espacio en disco. Cambiar de cuenta es un movimiento de posición, instantáneo, sin recargar ni parpadear. Y cada cuenta elige SU servicio: WhatsApp, Messenger, Instagram, X, TikTok (experimental) y Twitch, seis servicios ya vivos.</p>
       </div>
       <div class="card w2 reveal">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg>
@@ -318,12 +318,31 @@
         <h4 data-i18n="f6t">Libre, siempre</h4>
         <p data-i18n="f6d">AGPL-3.0: el código completo en GitHub. Sin suscripciones, sin telemetría, sin anuncios. Lo que pasa en tus chats se queda en tu computadora.</p>
       </div>
+      <div class="card w3 reveal">
+        <svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 11l2.5 2.5L16 9"/></svg>
+        <h4 data-i18n="f7t">Escudo de permisos</h4>
+        <p data-i18n="f7d">Si una página de chat pide cámara, micro, pantalla o portapapeles, quien contesta es Corvid, no el navegador. Cada interruptor queda en tus manos y persiste.</p>
+      </div>
+      <div class="card w3 reveal">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M21 21l-4.5-4.5M11 8v6M8 11h6"/></svg>
+        <h4 data-i18n="f8t">Lente de tráfico</h4>
+        <p data-i18n="f8d">Un panel vivo muestra qué servidores toca cada cuenta, con contadores y sellos BLOCKED. Confianza por observación, no por promesa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="heart">
+    <div class="plain reveal">
+      <h2 data-i18n="heart_title">El corazón del proyecto</h2>
+      <p data-i18n="heart_p1">Millones de personas viven de los chats: venden por WhatsApp, coordinan por Messenger, cuidan a sus clientes conversación a conversación. Trabajar ahí significa dar acceso total a la ventana de tu vida laboral. Corvid existe para cambiar eso: una herramienta libre que se interpone entre tu trabajo y la vigilancia, bloquea telemetría y publicidad, no cobra con tus datos y te deja ver todo lo que pasa.</p>
+      <p data-i18n="heart_p2">Nuestros objetivos, en orden: primero, un escudo de red con lista blanca estricta (pasan llamadas, mensajes, notificaciones y medios; el resto se rechaza), con bloqueadores de contenido y scripts preconfigurados y fijados a un único propósito. Segundo, un navegador libre empaquetado dentro del programa, aislado, presente en Windows, macOS y GNU/Linux sin depender del WebView2 de Microsoft ni del motor propietario de Apple: en GNU/Linux la cadena entera ya es libre. Tercero, la API local como alma del proyecto: automatización honesta para personas y agentes de IA, con estados degradados veraces y jamás una simulación de éxito.</p>
+      <p data-i18n="heart_p3">El nombre ya lo dice: un córvido, el pájaro inteligente que guarda su alimento y reconoce a sus amigos. Software libre bajo AGPL-3.0, escrito en Rust. Cuatro libertades, sin letra chiquita.</p>
     </div>
   </section>
 
   <section class="sec wrap" id="download">
     <h2 data-i18n="install_title">Instalación</h2>
-    <p class="lead" data-i18n="install_sub">Bájalo de Releases (última: 1.3.0 multi-servicio), libérate y listo. Gratis para siempre bajo AGPL-3.0.</p>
+    <p class="lead" data-i18n="install_sub">Bájalo de Releases (los botones resuelven la versión real con la API), libérate y listo. Gratis para siempre bajo AGPL-3.0.</p>
     <div class="oset">
       <div class="os reveal">
         <svg class="filled" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zM11.5 4.2 21 3v8.5h-9.5V4.2zm0 6.3H21V19l-9.5-1.3v-7.2z"/></svg>
@@ -340,7 +359,7 @@
         <div class="txt">
           <h4 data-i18n="mac_h">macOS</h4>
           <p data-i18n="mac_p">Arrastra el .dmg a Aplicaciones y abre. Las Mac con Apple Silicon (M1, M2, M3, M4) usan el build aarch64; las Mac Intel usan x64. Se requiere macOS 14 (Sonoma) o superior.</p>
-          <p data-i18n="mac_n2">Como no pasa por la App Store, la primera apertura pide una confirmación: corre <code>xattr -dr com.apple.quarantine /Applications/Zapdude.app</code> en la Terminal, o usa el botón "Abrir de todos modos" en Sistema, Privacidad y seguridad. Eso pasa una sola vez.</p>
+          <p data-i18n="mac_n2">Como no pasa por la App Store, la primera apertura pide una confirmación: corre <code>xattr -dr com.apple.quarantine /Applications/Zapdude.app</code> en la Terminal (la versión publicada aún instala como Zapdude.app hasta el corte de Corvid), o usa el botón "Abrir de todos modos" en Sistema, Privacidad y seguridad. Eso pasa una sola vez.</p>
           <div class="row">
             <a class="btn" id="dl-mac-arm-2"><span data-i18n="cta_mac_arm">Descargar Apple Silicon</span></a>
             <a class="btn ghost" id="dl-mac-intel-2"><span data-i18n="cta_mac_intel">Descargar Intel</span></a>
@@ -353,7 +372,7 @@
           <h4>Linux</h4>
           <p data-i18n="lnx_p">Planificado: deb y AppImage construidos por CI. Mientras tanto, el código fuente se compila con cargo y tauri, tal como en el repo.</p>
           <div class="row">
-            <a class="btn ghost" href="https://github.com/ldpf96/zapdude"><span data-i18n="lnx_gh">Ver el código</span></a>
+            <a class="btn ghost" href="https://github.com/da1fs/corvid"><span data-i18n="lnx_gh">Ver el código</span></a>
           </div>
         </div>
       </div>
@@ -363,16 +382,16 @@
   <section class="sec wrap" id="about">
     <div class="plain reveal">
       <h2 data-i18n="priv_title">Privacidad y créditos</h2>
-      <p data-i18n="priv_1">Zapdude incrusta tus chats en una ventana de escritorio (WhatsApp Web y Messenger): todo lo que se ve y se envía fluye entre tu computadora y el servicio, igual que en el navegador. Tu configuración y las sesiones de cada cuenta viven en tu disco, en la carpeta de datos del usuario, y ni tu lista de chats ni tus archivos pasan por ningún servidor del proyecto.</p>
-      <p data-i18n="priv_2">Proyecto independiente de ldpf96, licencia GNU AGPL 3.0. El diseño se hizo con ZapZap, de Rafael Tosta, como referencia, con implementación propia en Rust sobre Tauri. Desarrollado con asistencia de IA (OpenCode con el modelo GLM-5.3 Flash), con cada cambio probado en hardware real por el autor antes de subirlo.</p>
-      <p data-i18n="priv_3">Zapdude no tiene afiliación, relación ni respaldo de WhatsApp, Messenger ni Meta Platforms. WhatsApp y Messenger son marcas de Meta Platforms, Inc.</p>
+      <p data-i18n="priv_1">Corvid incrusta tus chats en una ventana de escritorio (WhatsApp Web, Messenger y los demás servicios vivos): todo lo que se ve y se envía fluye entre tu computadora y el servicio, igual que en el navegador. Tu configuración y las sesiones de cada cuenta viven en tu disco, en la carpeta de datos del usuario, y ni tu lista de chats ni tus archivos pasan por ningún servidor del proyecto.</p>
+      <p data-i18n="priv_2">Proyecto independiente de da1fs (antes ldpf96), licencia GNU AGPL 3.0. Nació llamado Zapdude y ahora se llama Corvid: la licencia y las atribuciones siguen intactas. El diseño se hizo con ZapZap, de Rafael Tosta, como referencia, con implementación propia en Rust sobre Tauri. Desarrollado con asistencia de IA (OpenCode con el modelo GLM-5.3 Flash), con cada cambio probado en hardware real por el autor antes de subirlo.</p>
+      <p data-i18n="priv_3">Corvid no tiene afiliación, relación ni respaldo de WhatsApp, Messenger, Instagram, X, TikTok, Twitch ni de Meta Platforms ni de ninguna otra operadora. Sus nombres son marcas de sus respectivos dueños.</p>
     </div>
 
     <div class="plain coffee reveal" id="coffee" hidden>
       <svg viewBox="0 0 24 24"><path d="M4 9h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9zM17 10h1.5a2.5 2.5 0 0 1 0 5H17M7 3.5c.9.9.9 1.8 0 2.7M10.5 2.5c.9.9.9 1.8 0 2.7"/></svg>
       <div class="msg">
         <h2 data-i18n="coffee_t">¿Te funciona bien? Invita un café</h2>
-        <p data-i18n="coffee_d">Zapdude es libre y gratis para siempre. Si te está ahorrando tiempo todos los días, un café se metaboliza en más cosa buena: más plataformas, más detalles y más atención a los reportes.</p>
+        <p data-i18n="coffee_d">Corvid es libre y gratis para siempre. Si te está ahorrando tiempo todos los días, un café se metaboliza en más cosa buena: más plataformas, más detalles y más atención a los reportes.</p>
         <a class="btn" id="coffee-btn" data-i18n="coffee_btn" href="#" target="_blank" rel="noopener">Invitar un café</a>
       </div>
     </div>
@@ -382,12 +401,12 @@
 <footer>
   <div class="wrap">
     <nav>
-      <a href="https://github.com/ldpf96/zapdude" data-i18n="f_github">GitHub</a>
-      <a href="https://github.com/ldpf96/zapdude/releases" data-i18n="f_releases">Releases</a>
-      <a href="https://github.com/ldpf96/zapdude/blob/main/LICENSE">Licencia AGPL-3.0</a>
-      <a href="https://github.com/ldpf96/zapdude/blob/main/NOTICE.md" data-i18n="f_notice">Atribuciones</a>
+      <a href="https://github.com/da1fs/corvid" data-i18n="f_github">GitHub</a>
+      <a href="https://github.com/da1fs/corvid/releases" data-i18n="f_releases">Releases</a>
+      <a href="https://github.com/da1fs/corvid/blob/main/LICENSE">Licencia AGPL-3.0</a>
+      <a href="https://github.com/da1fs/corvid/blob/main/NOTICE.md" data-i18n="f_notice">Atribuciones</a>
     </nav>
-    <span data-i18n="f_copy">Zapdude no está afiliado a WhatsApp ni a Meta. WhatsApp y Messenger son marcas de Meta Platforms, Inc.</span>
+    <span data-i18n="f_copy">Corvid no está afiliado a WhatsApp ni a Meta. WhatsApp y Messenger son marcas de Meta Platforms, Inc.</span>
   </div>
 </footer>
 
@@ -404,10 +423,10 @@
       nav_features: "Funciones",
       nav_download: "Descargas",
       nav_github: "GitHub",
-      pill: "Nuevo en 1.3.0: Messenger suma como servicio (fase de recepción) y notificaciones de marca con foto y nombre.",
+      pill: "Nueva identidad: el proyecto se llama Corvid. Lo que sigue: el escudo de red propio, el puerto GNU/Linux y el motor libre empaquetado.",
       h1a: "Tus chats de WhatsApp y Messenger,",
       h1b: "una sola ventana.",
-      sub: "Cambiate de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y una API local para que tus agentes trabajen por ti. Libre, de código abierto, sin suscripciones.",
+      sub: "Cambiate de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y una API local para que tus agentes trabajen por ti. Y como fondo: un escudo que bloquea rastreadores, anuncios y telemetría, con el panel para verlo. Software libre, sin suscripciones.",
       cta_win: "Descargar para Windows",
       cta_gh: "Código en GitHub",
       fine: "Gratis para siempre - AGPL-3.0 - sin telemetría, tus chats se quedan en tu computadora.",
@@ -416,7 +435,7 @@
       feat_title: "Hecho para trabajar de verdad",
       feat_sub: "Lo básico primero: tus cuentas a un clic y nada que se rompa. Lo demás, construido alrededor de eso.",
       f1t: "Multi-cuenta y multi-servicio",
-      f1d: "Un webview por cuenta con perfil aislado: cada sesión vive sola, con su propio espacio en disco. Cambiar de cuenta es un movimiento de posición, instantáneo, sin recargar ni parpadear. Y ahora cada cuenta elige SU servicio: WhatsApp Web o Messenger (fase de recepción; escribir, próximamente).",
+      f1d: "Un webview por cuenta con perfil aislado: cada sesión vive sola, con su propio espacio en disco. Cambiar de cuenta es un movimiento de posición, instantáneo, sin recargar ni parpadear. Y cada cuenta elige SU servicio: WhatsApp, Messenger, Instagram, X, TikTok (experimental) y Twitch, seis servicios ya vivos.",
       f2t: "Tema en toda la ventana",
       f2d: "El switch del drawer repinta todo al instante: rail, barra de título del sistema y los chats, sin recargar ni perder sesión.",
       f3t: "API local para agentes",
@@ -427,28 +446,36 @@
       f5d: "Voz, video y pantalla compartida funcionan; y las llamadas llegan como toasts de marca con foto redonda y nombre del llamador (incluida la perdida). Todas, del mismo tamaño, nacen uniformes.",
       f6t: "Libre, siempre",
       f6d: "AGPL-3.0: el código completo en GitHub. Sin suscripciones, sin telemetría, sin anuncios. Lo que pasa en tus chats se queda en tu computadora.",
+      f7t: "Escudo de permisos",
+      f7d: "Si una página de chat pide cámara, micro, pantalla o portapapeles, quien contesta es Corvid, no el navegador. Cada interruptor queda en tus manos y persiste.",
+      f8t: "Lente de tráfico",
+      f8d: "Un panel vivo muestra qué servidores toca cada cuenta, con contadores y sellos BLOCKED. Confianza por observación, no por promesa.",
+      heart_title: "El corazón del proyecto",
+      heart_p1: "Millones de personas viven de los chats: venden por WhatsApp, coordinan por Messenger, cuidan a sus clientes conversación a conversación. Trabajar ahí significa dar acceso total a la ventana de tu vida laboral. Corvid existe para cambiar eso: una herramienta libre que se interpone entre tu trabajo y la vigilancia, bloquea telemetría y publicidad, no cobra con tus datos y te deja ver todo lo que pasa.",
+      heart_p2: "Nuestros objetivos, en orden: primero, un escudo de red con lista blanca estricta (pasan llamadas, mensajes, notificaciones y medios; el resto se rechaza), con bloqueadores de contenido y scripts preconfigurados y fijados a un único propósito. Segundo, un navegador libre empaquetado dentro del programa, aislado, presente en Windows, macOS y GNU/Linux sin depender del WebView2 de Microsoft ni del motor propietario de Apple: en GNU/Linux la cadena entera ya es libre. Tercero, la API local como alma del proyecto: automatización honesta para personas y agentes de IA, con estados degradados veraces y jamás una simulación de éxito.",
+      heart_p3: "El nombre ya lo dice: un córvido, el pájaro inteligente que guarda su alimento y reconoce a sus amigos. Software libre bajo AGPL-3.0, escrito en Rust. Cuatro libertades, sin letra chiquita.",
       install_title: "Instalación",
-      install_sub: "Bájalo de Releases (última: 1.3.1), libérate y listo. Gratis para siempre bajo AGPL-3.0.",
+      install_sub: "Bájalo de Releases (los botones resuelven la versión real con la API), libérate y listo. Gratis para siempre bajo AGPL-3.0.",
       win_h: "Windows",
       win_p: "Instalador NSIS por usuario: no pide permisos de administrador y la desinstalación deja la carpeta de datos limpia. Funciona en Windows 10 y 11. El icono verde con su relámpago queda en la barra de tareas y en la bandeja.",
       mac_h: "macOS",
       mac_p: "Arrastra el .dmg a Aplicaciones y abre. Las Mac con Apple Silicon (M1, M2, M3, M4) usan el build aarch64; las Mac Intel usan x64. Se requiere macOS 14 (Sonoma) o superior.",
-      mac_n2: "Como no pasa por la App Store, la primera apertura pide una confirmación: corre <code>xattr -dr com.apple.quarantine /Applications/Zapdude.app</code> en la Terminal, o usa el botón \"Abrir de todos modos\" en Sistema, Privacidad y seguridad. Eso pasa una sola vez.",
+      mac_n2: "Como no pasa por la App Store, la primera apertura pide una confirmación: corre <code>xattr -dr com.apple.quarantine /Applications/Zapdude.app</code> en la Terminal (la versión publicada aún instala como Zapdude.app hasta el corte de Corvid), o usa el botón \"Abrir de todos modos\" en Sistema, Privacidad y seguridad. Eso pasa una sola vez.",
       cta_mac_arm: "Descargar Apple Silicon",
       cta_mac_intel: "Descargar Intel",
-      lnx_p: "Planificado: deb y AppImage construidos por CI. Mientras tanto, el código fuente se compila con cargo y tauri, tal como en el repo.",
+      lnx_p: "Planificado y ya en el plan de CI: deb y AppImage. En GNU/Linux toda la cadena del programa es software libre de punta a punta. Mientras tanto, el código fuente se compila con cargo y tauri, tal como en el repo.",
       lnx_gh: "Ver el código",
       priv_title: "Privacidad y créditos",
-      priv_1: "Zapdude incrusta tus chats en una ventana de escritorio (WhatsApp Web y Messenger): todo lo que se ve y se envía fluye entre tu computadora y el servicio, igual que en el navegador. Tu configuración y las sesiones de cada cuenta viven en tu disco, en la carpeta de datos del usuario, y ni tu lista de chats ni tus archivos pasan por ningún servidor del proyecto.",
-      priv_2: "Proyecto independiente de ldpf96, licencia GNU AGPL 3.0. El diseño se hizo con ZapZap, de Rafael Tosta, como referencia, con implementación propia en Rust sobre Tauri. Desarrollado con asistencia de IA (OpenCode con el modelo GLM-5.3 Flash), con cada cambio probado en hardware real por el autor antes de subirlo.",
-      priv_3: "Zapdude no tiene afiliación, relación ni respaldo de WhatsApp, Messenger ni Meta Platforms. WhatsApp y Messenger son marcas de Meta Platforms, Inc.",
+      priv_1: "Corvid incrusta tus chats en una ventana de escritorio (WhatsApp, Messenger, Instagram, X, TikTok y Twitch): todo lo que se ve y se envía fluye entre tu computadora y el servicio, igual que en el navegador. Tu configuración y las sesiones de cada cuenta viven en tu disco, en la carpeta de datos del usuario, y ni tu lista de chats ni tus archivos pasan por ningún servidor del proyecto.",
+      priv_2: "Proyecto independiente de da1fs (antes ldpf96), licencia GNU AGPL 3.0. Nació llamado Zapdude y ahora se llama Corvid: licencia y atribuciones siguen intactas. El diseño se hizo con ZapZap, de Rafael Tosta, como referencia, con implementación propia en Rust sobre Tauri. Desarrollado con asistencia de IA (OpenCode con el modelo GLM-5.3 Flash), con cada cambio probado en hardware real por el autor antes de subirlo.",
+      priv_3: "Corvid no tiene afiliación, relación ni respaldo de WhatsApp, Messenger, Instagram, X, TikTok, Twitch ni de Meta Platforms ni de ninguna otra operadora. Sus nombres son marcas de sus respectivos dueños.",
       coffee_t: "¿Te funciona bien? Invita un café",
-      coffee_d: "Zapdude es libre y gratis para siempre. Si te está ahorrando tiempo todos los días, un café se metaboliza en más cosa buena: más plataformas, más detalles y más atención a los reportes.",
+      coffee_d: "Corvid es libre y gratis para siempre. Si te está ahorrando tiempo todos los días, un café se metaboliza en más cosa buena: más plataformas, más detalles y más atención a los reportes.",
       coffee_btn: "Invitar un café",
       f_github: "GitHub",
       f_releases: "Releases",
       f_notice: "Atribuciones",
-      f_copy: "Zapdude no está afiliado a WhatsApp ni a Meta. WhatsApp y Messenger son marcas de Meta Platforms, Inc.",
+      f_copy: "Corvid no está afiliado a WhatsApp ni a Meta. WhatsApp y Messenger son marcas de Meta Platforms, Inc.",
       loading: "Consultando la última versión...",
       rel_fallback: "Los botones caen al Releases si la API no carga."
     },
@@ -456,10 +483,10 @@
       nav_features: "Features",
       nav_download: "Download",
       nav_github: "GitHub",
-      pill: "New in 1.4.2: the right pane can no longer go blank when you open a chat. The promo hider is 100% reversible rules now.",
+      pill: "New identity: the project is now called Corvid. Coming next: the own network shield, the GNU/Linux port and the bundled free engine.",
       h1a: "All your WhatsApp and Messenger chats,",
       h1b: "one window.",
-      sub: "Switch accounts with one click and keep every session alive. Full light and dark theme, system tray, auto start, and a local API so your agents work for you. Free, open source, no subscriptions.",
+      sub: "Switch accounts with one click and keep every session alive. Full light and dark theme, system tray, auto start, and a local API so your agents work for you. Free software, no subscriptions, plus the shield layer: tracker, ad and telemetry blocking with a panel to see it.",
       cta_win: "Download for Windows",
       cta_gh: "Source on GitHub",
       fine: "Free forever - AGPL-3.0 - no telemetry, your chats stay on your computer.",
@@ -468,7 +495,7 @@
       feat_title: "Built to work for real",
       feat_sub: "Basics first: your accounts one click away and nothing breaking. Everything else is built around that.",
       f1t: "Multi-account and multi-service",
-      f1d: "One webview per account with an isolated profile: every session lives on its own disk space. Switching is a position move, instant, with no reload and no flicker. And now every account picks its OWN service: WhatsApp Web or Messenger (receive phase; sending comes next).",
+      f1d: "One webview per account with an isolated profile: every session lives on its own disk space. Switching is a position move, instant, with no reload and no flicker. And every account picks its OWN service: WhatsApp, Messenger, Instagram, X, TikTok (experimental) and Twitch, six live services.",
       f2t: "Theme across the window",
       f2d: "The drawer switch repaints everything instantly: rail, system title bar and the chats, without reloading or losing the session.",
       f3t: "Local API for agents",
@@ -479,28 +506,36 @@
       f5d: "Voice, video and screen sharing work; calls surface as branded toasts with a round photo and the caller's name (missed calls included). Every one of them is the same size at birth.",
       f6t: "Free, always",
       f6d: "AGPL-3.0: the full source is on GitHub. No subscriptions, no telemetry, no ads. What happens in your chats stays on your computer.",
+      f7t: "Permission shield",
+      f7d: "When a chat page asks for camera, microphone, screen or clipboard, Corvid answers, not the browser. Every switch stays in your hands and persists.",
+      f8t: "Traffic lens",
+      f8d: "A live panel shows the servers each account touches, with counters and BLOCKED stamps. Trust by observation, not by promise.",
+      heart_title: "The heart of the project",
+      heart_p1: "Millions of people live off their chats: they sell over WhatsApp, coordinate over Messenger, care for their customers one conversation at a time. Working there means handing full access to the window of your working life. Corvid exists to change that: a free tool that stands between your work and the surveillance, blocks telemetry and ads, never trades your data, and lets you see everything that happens.",
+      heart_p2: "Our objectives, in order: first, a network shield with a strict allowlist (calls, messages, notifications and media pass; everything else is refused), with content and script blockers preconfigured and locked to their single purpose. Second, a free browser bundled inside the program, isolated, present on Windows, macOS and GNU/Linux without depending on the WebView2 runtime of Microsoft or the proprietary engine of Apple: on GNU/Linux the whole chain is already free. Third, the local API as the soul of the project: honest automation for people and AI agents, with truthful degraded states and never a faked success.",
+      heart_p3: "The name says it: a corvid, the clever bird that caches its food and knows its friends. Free software under AGPL-3.0, written in Rust. Four freedoms, no small print.",
       install_title: "Installation",
-      install_sub: "Grab it from Releases (latest: 1.3.1), free forever under AGPL-3.0.",
+      install_sub: "Grab it from Releases (the buttons resolve the real version through the API), free forever under AGPL-3.0.",
       win_h: "Windows",
       win_p: "Per-user NSIS installer: no admin rights needed, and uninstall leaves the data folder clean. Works on Windows 10 and 11. The green bolt icon lands on the taskbar and the tray.",
       mac_h: "macOS",
       mac_p: "Drag the .dmg into Applications and open it. Apple Silicon Macs (M1, M2, M3, M4) use the aarch64 build; Intel Macs use x64. macOS 14 (Sonoma) or newer is required.",
-      mac_n2: "Since it does not come from the App Store, the first open asks for one confirmation: run <code>xattr -dr com.apple.quarantine /Applications/Zapdude.app</code> in Terminal, or use the \"Open Anyway\" button in System Settings, Privacy & Security. It happens only once.",
+      mac_n2: "Since it does not come from the App Store, the first open asks for one confirmation: run <code>xattr -dr com.apple.quarantine /Applications/Zapdude.app</code> in Terminal (the published build still installs as Zapdude.app until the Corvid cut), or use the \"Open Anyway\" button in System Settings, Privacy & Security. It happens only once.",
       cta_mac_arm: "Download Apple Silicon",
       cta_mac_intel: "Download Intel",
-      lnx_p: "Planned: deb and AppImage packages built by CI. Meanwhile the source compiles with cargo and tauri, exactly like in the repo.",
+      lnx_p: "Planned and already in the CI plan: deb and AppImage. On GNU/Linux the whole chain is free software end to end. Meanwhile the source compiles with cargo and tauri, exactly like in the repo.",
       lnx_gh: "See the source",
       priv_title: "Privacy and credits",
-      priv_1: "Zapdude embeds your chats in a desktop window (WhatsApp Web and Messenger): everything you see and send flows between your computer and the service, exactly like in the browser. Your settings and every account's session live on your disk, in the user data folder, and neither your chat list nor your files pass through any server of this project.",
-      priv_2: "Independent project by ldpf96, GNU AGPL 3.0 license. The design was made with ZapZap, by Rafael Tosta, as the reference, with an original implementation in Rust on Tauri. Developed with AI assistance (OpenCode with the GLM-5.3 Flash model), with every change tested on real hardware by the author before shipping.",
-      priv_3: "Zapdude is not affiliated with, related to, or endorsed by WhatsApp, Messenger, or Meta Platforms. WhatsApp and Messenger are trademarks of Meta Platforms, Inc.",
+      priv_1: "Corvid embeds your chats in a desktop window (WhatsApp, Messenger, Instagram, X, TikTok and Twitch): everything you see and send flows between your computer and the service, exactly like in the browser. Your settings and every account's session live on your disk, in the user data folder, and neither your chat list nor your files pass through any server of this project.",
+      priv_2: "Independent project by da1fs (formerly ldpf96), GNU AGPL 3.0 license. Released as Zapdude and now named Corvid; license and attributions carry over. The design was made with ZapZap, by Rafael Tosta, as the reference, with an original implementation in Rust on Tauri. Developed with AI assistance (OpenCode with the GLM-5.3 Flash model), with every change tested on real hardware by the author before shipping.",
+      priv_3: "Corvid is not affiliated with, related to, or endorsed by WhatsApp, Messenger, Instagram, X, TikTok, Twitch, or Meta Platforms or any other operator. Their names are trademarks of their respective owners.",
       coffee_t: "Working well? Buy me a coffee",
-      coffee_d: "Zapdude is free and will stay free forever. If it saves you time every day, one coffee becomes more good stuff: more platforms, more details, more attention to your reports.",
+      coffee_d: "Corvid is free and will stay free forever. If it saves you time every day, one coffee becomes more good stuff: more platforms, more details, more attention to your reports.",
       coffee_btn: "Buy me a coffee",
       f_github: "GitHub",
       f_releases: "Releases",
       f_notice: "Attributions",
-      f_copy: "Zapdude is not affiliated with WhatsApp or Meta. WhatsApp and Messenger are trademarks of Meta Platforms, Inc.",
+      f_copy: "Corvid is not affiliated with WhatsApp or Meta. WhatsApp and Messenger are trademarks of Meta Platforms, Inc.",
       loading: "Checking the latest version...",
       rel_fallback: "Buttons fall back to Releases if the API does not load."
     }
@@ -533,7 +568,7 @@
   });
 
   // dynamic downloads from the latest release
-  var RELEASES_URL = "https://github.com/ldpf96/zapdude/releases/latest";
+  var RELEASES_URL = "https://github.com/da1fs/corvid/releases/latest";
   var verEl = [];
   ["win-ver", "win-ver-2"].forEach(function(id){ verEl.push(document.getElementById(id)); });
   var verText = "";
@@ -543,7 +578,7 @@
   ["dl-win", "dl-win-2"].forEach(function(id){ document.getElementById(id).href = RELEASES_URL; });
   ["dl-mac-arm-2", "dl-mac-intel-2"].forEach(function(id){ document.getElementById(id).href = RELEASES_URL; });
 
-  fetch("https://api.github.com/repos/ldpf96/zapdude/releases/latest", { headers: { "Accept": "application/vnd.github+json" } })
+  fetch("https://api.github.com/repos/da1fs/corvid/releases/latest", { headers: { "Accept": "application/vnd.github+json" } })
     .then(function(res){ if (!res.ok) throw new Error("http " + res.status); return res.json(); })
     .then(function(rel){
       var assets = rel.assets || [];
