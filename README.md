@@ -1,4 +1,4 @@
-# zapdude-site
+# corvid-site
 
 Download site for [Corvid](https://github.com/da1fs/corvid), the shielded
 desktop chat hub for WhatsApp, Messenger and more (the project was
@@ -8,8 +8,9 @@ dependency-free, vanilla HTML/CSS/JS.
 License: **GNU AGPL-3.0** (see [LICENSE](./LICENSE) in this repository
 and the full text in the main repo).
 
-Live at: https://da1fs.github.io/zapdude-site/
-(the old ldpf96.github.io address redirects here automatically)
+Live at: https://da1fs.github.io/corvid-site/
+(the old zapdude-site and ldpf96.github.io addresses redirect here
+automatically)
 
 ## How it works
 
