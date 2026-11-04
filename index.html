@@ -221,7 +221,7 @@
   <section class="hero wrap">
     <div class="pill"><i class="dot"></i><span data-i18n="pill">El proyecto se llama Corvid (antes Zapdude). En marcha: el escudo de red estricto, el puerto GNU/Linux y el motor libre empaquetado.</span></div>
     <h1><span data-i18n="h1a">Tus chats de WhatsApp y Messenger,</span><br><span class="grad" data-i18n="h1b">una sola ventana.</span></h1>
-    <p class="sub" data-i18n="sub">Cambia de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y una API local para que tus agentes trabajen por ti. Y como fondo: un escudo de red que bloquea rastreadores y anuncios conocidos, con el panel para verlo. Software libre, sin suscripciones.</p>
+    <p class="sub" data-i18n="sub">Cambia de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y toasts nativas por cuenta. Y como fondo: un escudo de red que bloquea rastreadores y anuncios conocidos, con el panel para verlo. Software libre, sin suscripciones.</p>
     <div class="cta">
       <a class="btn" id="dl-win">
         <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zM11.5 4.2 21 3v8.5h-9.5V4.2zm0 6.3H21V19l-9.5-1.3v-7.2z"/></svg>
@@ -299,8 +299,8 @@
       </div>
       <div class="card w2 reveal">
         <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 8h4M7 12h10M7 16h7"/></svg>
-        <h4 data-i18n="f3t">API local para agentes</h4>
-        <p data-i18n="f3d">REST, SSE y webhooks firmados en loopback: conecta tus agentes de IA o tus scripts con API key y rate limit.</p>
+        <h4 data-i18n="f3t">Cero automatización</h4>
+        <p data-i18n="f3d">El programa carga la página real de cada servicio dentro de tu sesión y no la maneja por ti: leer chats o enviar mensajes desde código no existe aquí. Los términos de cada servicio no autorizan clientes no oficiales, y el proyecto respeta esa línea.</p>
       </div>
       <div class="card w4 reveal">
         <i class="glow"></i>
@@ -335,14 +335,14 @@
     <div class="plain reveal">
       <h2 data-i18n="heart_title">El corazón del proyecto</h2>
       <p data-i18n="heart_p1">Millones de personas viven de los chats: venden por WhatsApp, coordinan por Messenger, cuidan a sus clientes conversación a conversación. Trabajar ahí significa dar acceso total a la ventana de tu vida laboral. Corvid existe para cambiar eso: una herramienta libre que se interpone entre tu trabajo y la vigilancia, bloquea la publicidad y la telemetría que puede, no lucra con tus datos y te deja ver todo lo que pasa.</p>
-      <p data-i18n="heart_p2">Nuestros objetivos, en orden: primero, un escudo de red con lista blanca estricta (pasan llamadas, mensajes, notificaciones y medios; el resto se rechaza), con bloqueadores de contenido y scripts preconfigurados y fijados a un único propósito; hoy funciona la primera capa, la lista de rastreadores conocidos. Segundo, un navegador libre empaquetado dentro del programa, aislado, presente en Windows, macOS y GNU/Linux sin depender del WebView2 de Microsoft ni del motor propietario de Apple: en GNU/Linux ya se compila todo con software libre, de punta a punta. Tercero, la API local: automatización honesta para personas y agentes, donde lo que no está disponible se dice de frente, sin inventar éxitos.</p>
+      <p data-i18n="heart_p2">Nuestros objetivos, en orden: primero, un escudo de red con lista blanca estricta (pasan llamadas, mensajes, notificaciones y medios; el resto se rechaza), con bloqueadores de contenido y scripts preconfigurados y fijados a un único propósito; hoy funciona la primera capa, la lista de rastreadores conocidos. Segundo, un navegador libre empaquetado dentro del programa, aislado, presente en Windows, macOS y GNU/Linux sin depender del WebView2 de Microsoft ni del motor propietario de Apple: en GNU/Linux ya se compila todo con software libre, de punta a punta. Tercero, límites por escrito: cero automatización no autorizada hacia los servicios embebidos; lo que los términos de cada uno no permiten no se construye, y lo que no funciona se dice de frente, sin inventar éxitos.</p>
       <p data-i18n="heart_p3">El nombre ya lo dice: un córvido, el pájaro inteligente que guarda su alimento y reconoce a sus amigos. Software libre bajo AGPL-3.0, escrito en Rust. Cuatro libertades, sin letra chiquita.</p>
     </div>
   </section>
 
   <section class="sec wrap" id="download">
     <h2 data-i18n="install_title">Instalación</h2>
-    <p class="lead" data-i18n="install_sub">Bájalo de Releases (los botones resuelven la versión real con la API) o compila desde el código en el repo. Software libre, AGPL-3.0.</p>
+    <p class="lead" data-i18n="install_sub">Bájalo de Releases (los botones resuelven la versión real consultando la API de GitHub) o compila desde el código en el repo. Software libre, AGPL-3.0.</p>
     <div class="oset">
       <div class="os reveal">
         <svg class="filled" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M3 5.5 10.5 4.4v7.1H3V5.5zm0 13 7.5 1.1v-7H3v5.9zM11.5 4.2 21 3v8.5h-9.5V4.2zm0 6.3H21V19l-9.5-1.3v-7.2z"/></svg>
@@ -428,7 +428,7 @@
       pill: "El proyecto se llama Corvid (antes Zapdude). En marcha: el escudo de red estricto, el puerto GNU/Linux y el motor libre empaquetado.",
       h1a: "Tus chats de WhatsApp y Messenger,",
       h1b: "una sola ventana.",
-      sub: "Cambia de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y una API local para que tus agentes trabajen por ti. Y como fondo: un escudo de red que bloquea rastreadores y anuncios conocidos, con el panel para verlo. Software libre, sin suscripciones.",
+      sub: "Cambia de cuenta con un clic, con la sesión viva de cada una. Tema claro y oscuro completo, bandeja del sistema, arranque automático y toasts nativas por cuenta. Y como fondo: un escudo de red que bloquea rastreadores y anuncios conocidos, con el panel para verlo. Software libre, sin suscripciones.",
       cta_win: "Descargar para Windows",
       cta_gh: "Código en GitHub",
       fine: "Gratis para siempre, como la licencia lo garantiza: AGPL-3.0. Sin telemetría, tus chats se quedan en tu computadora.",
@@ -440,8 +440,8 @@
       f1d: "Un webview por cuenta con perfil aislado: cada sesión vive sola, con su propio espacio en disco. Cambiar de cuenta es un movimiento de posición, sin recargar la página. Y cada cuenta elige su servicio: WhatsApp, Messenger, Instagram, X, TikTok (experimental) y Twitch.",
       f2t: "Tema en toda la ventana",
       f2d: "El switch del drawer repinta todo al instante: rail, barra de título del sistema y los chats, sin recargar ni perder sesión.",
-      f3t: "API local para agentes",
-      f3d: "REST, SSE y webhooks firmados en loopback: conecta tus agentes de IA o tus scripts con API key y rate limit.",
+      f3t: "Cero automatización",
+      f3d: "El programa carga la página real de cada servicio dentro de tu sesión y no la maneja por ti: leer chats o enviar mensajes desde código no existe aquí. Los términos de cada servicio no autorizan clientes no oficiales, y el proyecto respeta esa línea.",
       f4t: "Bandeja del sistema y comienzo silencioso",
       f4d: "Cierra la ventana y la app sigue viva en la barra, lista al clic. Arranque con Windows y arranque minimizado, ambos incluidos: la app abre donde la dejaste, sin cerrar la sesión de nadie.",
       f5t: "Llamadas y notificaciones de marca",
@@ -454,7 +454,7 @@
       f8d: "Un panel vivo muestra qué servidores toca cada cuenta, con contadores y sellos BLOCKED. Confianza por observación, no por promesa.",
       heart_title: "El corazón del proyecto",
       heart_p1: "Millones de personas viven de los chats: venden por WhatsApp, coordinan por Messenger, cuidan a sus clientes conversación a conversación. Trabajar ahí significa dar acceso total a la ventana de tu vida laboral. Corvid existe para cambiar eso: una herramienta libre que se interpone entre tu trabajo y la vigilancia, bloquea la publicidad y la telemetría que puede, no lucra con tus datos y te deja ver todo lo que pasa.",
-      heart_p2: "Nuestros objetivos, en orden: primero, un escudo de red con lista blanca estricta (pasan llamadas, mensajes, notificaciones y medios; el resto se rechaza), con bloqueadores de contenido y scripts preconfigurados y fijados a un único propósito; hoy funciona la primera capa, la lista de rastreadores conocidos. Segundo, un navegador libre empaquetado dentro del programa, aislado, presente en Windows, macOS y GNU/Linux sin depender del WebView2 de Microsoft ni del motor propietario de Apple: en GNU/Linux ya se compila todo con software libre, de punta a punta. Tercero, la API local: automatización honesta para personas y agentes, donde lo que no está disponible se dice de frente, sin inventar éxitos.",
+      heart_p2: "Nuestros objetivos, en orden: primero, un escudo de red con lista blanca estricta (pasan llamadas, mensajes, notificaciones y medios; el resto se rechaza), con bloqueadores de contenido y scripts preconfigurados y fijados a un único propósito; hoy funciona la primera capa, la lista de rastreadores conocidos. Segundo, un navegador libre empaquetado dentro del programa, aislado, presente en Windows, macOS y GNU/Linux sin depender del WebView2 de Microsoft ni del motor propietario de Apple: en GNU/Linux ya se compila todo con software libre, de punta a punta. Tercero, límites por escrito: cero automatización no autorizada hacia los servicios embebidos; lo que los términos de cada uno no permiten no se construye, y lo que no funciona se dice de frente, sin inventar éxitos.",
       heart_p3: "El nombre ya lo dice: un córvido, el pájaro inteligente que guarda su alimento y reconoce a sus amigos. Software libre bajo AGPL-3.0, escrito en Rust. Cuatro libertades, sin letra chiquita.",
       install_title: "Instalación",
       install_sub: "Bájalo de Releases (los botones resuelven la versión real con la API) o compila desde el código en el repo. Software libre, AGPL-3.0.",
@@ -481,7 +481,7 @@
       f_notice: "Atribuciones",
       f_copy: "Corvid no está afiliado a WhatsApp ni a Meta. WhatsApp y Messenger son marcas de Meta Platforms, Inc.",
       loading: "Consultando la última versión...",
-      rel_fallback: "Los botones caen al Releases si la API no carga."
+      rel_fallback: "Los botones caen al Releases si la API de GitHub no carga."
     },
     en: {
       nav_features: "Features",
@@ -490,7 +490,7 @@
       pill: "The project is now called Corvid (formerly Zapdude). In progress: the strict network shield, the GNU/Linux port and the bundled free engine.",
       h1a: "All your WhatsApp and Messenger chats,",
       h1b: "one window.",
-      sub: "Switch accounts with one click and keep every session alive. Full light and dark theme, system tray, auto start, and a local API so your agents work for you. Free software, no subscriptions, plus the network shield, which blocks known trackers and ads, with a panel to see it.",
+      sub: "Switch accounts with one click and keep every session alive. Full light and dark theme, system tray, auto start, native per-account toasts. Free software, no subscriptions, plus the network shield, which blocks known trackers and ads, with a panel to see it.",
       cta_win: "Download for Windows",
       cta_gh: "Source on GitHub",
       fine: "Free forever, as the license guarantees: AGPL-3.0. No telemetry, your chats stay on your computer.",
@@ -502,8 +502,8 @@
       f1d: "One webview per account with an isolated profile: every session lives on its own disk space. Switching is a position move, with no page reload. And every account picks its service: WhatsApp, Messenger, Instagram, X, TikTok (experimental) and Twitch.",
       f2t: "Theme across the window",
       f2d: "The drawer switch repaints everything instantly: rail, system title bar and the chats, without reloading or losing the session.",
-      f3t: "Local API for agents",
-      f3d: "REST, SSE and signed webhooks on loopback: hand it to your AI agents or scripts with an API key and rate limiting.",
+      f3t: "No automation surface",
+      f3d: "The program loads each service's real page inside your session and does not drive it for you: reading chats or sending messages from code does not exist here. Each service's terms do not authorize unofficial clients, and the project keeps that line.",
       f4t: "System tray and silent start",
       f4d: "Close the window and the app stays alive in the tray, ready at one click. Start with Windows and start minimized, both included: it opens where you left it, without signing anyone out.",
       f5t: "Calls and branded notifications",
@@ -516,10 +516,10 @@
       f8d: "A live panel shows the servers each account touches, with counters and BLOCKED stamps. Trust by observation, not by promise.",
       heart_title: "The heart of the project",
       heart_p1: "Millions of people live off their chats: they sell over WhatsApp, coordinate over Messenger, care for their customers one conversation at a time. Working there means handing full access to the window of your working life. Corvid exists to change that: a free tool that stands between your work and the surveillance, blocks the ads and telemetry it can, never trades your data, and lets you see everything that happens.",
-      heart_p2: "Our objectives, in order: first, a network shield with a strict allowlist (calls, messages, notifications and media pass; everything else is refused), with content and script blockers preconfigured and locked to their single purpose; today the first layer works, the curated tracker list. Second, a free browser bundled inside the program, isolated, present on Windows, macOS and GNU/Linux without depending on the WebView2 runtime of Microsoft or the proprietary engine of Apple: on GNU/Linux everything already compiles as free software, end to end. Third, the local API: honest automation for people and agents, where what is not available gets said, with no invented successes.",
+      heart_p2: "Our objectives, in order: first, a network shield with a strict allowlist (calls, messages, notifications and media pass; everything else is refused), with content and script blockers preconfigured and locked to their single purpose; today the first layer works, the curated tracker list. Second, a free browser bundled inside the program, isolated, present on Windows, macOS and GNU/Linux without depending on the WebView2 runtime of Microsoft or the proprietary engine of Apple: on GNU/Linux everything already compiles as free software, end to end. Third, lines in writing: zero unauthorized automation toward the embedded services; what each service's terms do not permit does not get built, and what does not work gets said, with no invented successes.",
       heart_p3: "The name says it: a corvid, the clever bird that caches its food and knows its friends. Free software under AGPL-3.0, written in Rust. Four freedoms, no small print.",
       install_title: "Installation",
-      install_sub: "Grab it from Releases (the buttons resolve the real version through the API) or compile from the source in the repo. Free software, AGPL-3.0.",
+      install_sub: "Grab it from Releases (the buttons resolve the real version through the GitHub API) or compile from the source in the repo. Free software, AGPL-3.0.",
       win_h: "Windows",
       win_p: "Per-user NSIS installer: no admin rights needed. Uninstall deletes the data folder, which holds your sessions: copy it out first if you want to keep them. Tested on Windows 10 and 11. The green bolt icon lands on the taskbar and the tray.",
       mac_h: "macOS",
@@ -543,7 +543,7 @@
       f_notice: "Attributions",
       f_copy: "Corvid is not affiliated with WhatsApp or Meta. WhatsApp and Messenger are trademarks of Meta Platforms, Inc.",
       loading: "Checking the latest version...",
-      rel_fallback: "Buttons fall back to Releases if the API does not load."
+      rel_fallback: "Buttons fall back to Releases if the GitHub API does not load."
     }
   };
 
